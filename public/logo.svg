@@ -1,31 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="100" viewBox="0 0 420 100" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80" fill="none">
   <defs>
-    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#863bff"/>
-      <stop offset="100%" stop-color="#47bfff"/>
-    </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="wordGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#863bff"/>
       <stop offset="100%" stop-color="#47bfff"/>
     </linearGradient>
   </defs>
 
-  <!-- Lightning bolt icon (scaled-up favicon shape) -->
-  <g transform="translate(8, 6) scale(1.87)">
-    <path fill="url(#iconGrad)" d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z"/>
-  </g>
-
-  <!-- PREODA wordmark -->
+  <!-- Temu-style: bold lowercase wordmark, no icon -->
   <text
-    x="108"
-    y="72"
-    font-family="'Poppins', 'Montserrat', 'Segoe UI', Arial, sans-serif"
-    font-size="64"
+    x="50%"
+    y="58"
+    text-anchor="middle"
+    font-family="'Poppins', 'Montserrat', 'Nunito', 'Segoe UI', Arial, sans-serif"
+    font-size="60"
     font-weight="800"
-    letter-spacing="3"
-    fill="url(#textGrad)"
-  >PREODA</text>
-
-  <!-- Thin accent underline -->
-  <rect x="108" y="80" width="302" height="4" rx="2" fill="url(#textGrad)" opacity="0.35"/>
+    letter-spacing="-1"
+    fill="url(#wordGrad)"
+  >preoda</text>
 </svg>
