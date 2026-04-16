@@ -12,8 +12,9 @@ function AppShell() {
   const [selectedLocation, setSelectedLocation] = useState('Port Harcourt')
 
   return (
-    <div className="mx-auto min-h-screen w-full max-w-md bg-gradient-to-b from-[#0d1027] via-[#31206a] to-[#ef7f4d] pb-28 text-slate-900">
-      <main className="space-y-4 p-4">
+    <div className="min-h-screen w-full bg-gradient-to-b from-[#0d1027] via-[#31206a] to-[#ef7f4d] text-slate-900">
+      <main className="pb-28 md:ml-64 md:pb-8">
+        <div className="mx-auto max-w-6xl space-y-4 p-4 md:p-8">
         <Routes>
           <Route
             path="/"
@@ -30,6 +31,7 @@ function AppShell() {
           <Route path="/cart" element={<CartPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        </div>
       </main>
 
       <BottomNav />

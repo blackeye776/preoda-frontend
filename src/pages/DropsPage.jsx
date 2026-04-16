@@ -57,7 +57,7 @@ export default function DropsPage({ selectedLocation, setSelectedLocation }) {
 
       <section className="space-y-3">
         <h2 className="text-lg font-bold text-white">Hot Campaigns</h2>
-        <div className="space-y-3">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
           {filteredCampaigns.map((campaign, index) => (
             <CampaignCard key={campaign.id} campaign={campaign} index={index} />
           ))}

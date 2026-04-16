@@ -38,7 +38,7 @@ export default function ShopPage() {
         </select>
       </div>
 
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
         {products.map((product) => (
           <article key={product.id} className="space-y-2 rounded-3xl bg-white p-3 shadow-lg shadow-black/10">
             <div className="flex h-24 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-100 to-orange-100 text-5xl">
